@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "play": "vite"
+  },
+  "dependencies": {
+    "vue": "catalog:dev"
+  },
+  "devDependencies": {
+    "@firefly/vite-plugin-liquid": "workspace:*",
+    "@unocss/preset-mini": "catalog:dev",
+    "@unocss/reset": "catalog:dev",
+    "@vitejs/plugin-vue": "catalog:dev",
+    "unocss": "catalog:dev",
+    "vite": "catalog:dev",
+    "vite-plugin-inspect": "catalog:dev",
+    "vue-tsc": "catalog:dev"
+  }
+}

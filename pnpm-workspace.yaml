@@ -1,0 +1,31 @@
+packages:
+  - playground
+  - packages/*
+catalogs:
+  dev:
+    '@antfu/eslint-config': ^4.16.1
+    '@antfu/ni': ^25.0.0
+    '@antfu/utils': ^9.2.0
+    '@types/node': ^24.0.7
+    '@unocss/preset-mini': ^66.3.2
+    '@unocss/reset': ^66.3.2
+    '@vitejs/plugin-vue': ^6.0.0
+    bumpp: ^10.2.0
+    eslint: ^9.30.0
+    lint-staged: ^16.1.2
+    liquidjs: ^10.21.1
+    simple-git-hooks: ^2.13.0
+    typescript: ^5.8.3
+    unbuild: ^3.5.0
+    unocss: ^66.3.2
+    vite: ^7.0.0
+    vite-plugin-inspect: ^11.3.0
+    vitest: ^3.2.4
+    vue: ^3.5.17
+    vue-tsc: ^2.2.10
+  frontend:
+    nanoevents: ^9.1.0
+onlyBuiltDependencies:
+  - esbuild
+  - simple-git-hooks
+  - unrs-resolver
