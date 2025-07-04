@@ -2,12 +2,7 @@ import type { Plugin } from 'vite'
 import type { FilterFunction, ViteLiquidPluginOptions } from './types/liquid'
 import { Liquid } from 'liquidjs'
 
-/**
- * Vite插件，用于处理和转换.liquid文件
- * @param {ViteLiquidPluginOptions} options - 插件配置选项
- * @returns {Plugin} Vite插件对象
- */
-export default function vitePluginLiquid(options: ViteLiquidPluginOptions = {}): Plugin {
+export function vitePluginLiquid(options: ViteLiquidPluginOptions = {}): Plugin {
   const parameters: ViteLiquidPluginOptions = options || {}
   let engine: Liquid | null = null
 
